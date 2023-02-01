@@ -2,7 +2,7 @@
 <YealinkIPPhoneFormattedTextScreen
 doneAction="http://10.1.0.105/menu.php"
 Beep="yes"
-Timeout="60"
+Timeout="8"
 LockIn="no">
 <Line Size="large" Align="center">Header line1</Line>
 <Scroll>
