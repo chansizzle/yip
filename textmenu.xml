@@ -5,9 +5,9 @@ style = "numbered/none"
 Beep = "yes/no"
 wrapList="yes/no"
 Timeout = "integer"
-refresh=“refresh time“ url=“url“
+refresh="refresh time" url="url"
 cancelAction = "URI"
-previous = “URI”
+previous = "URI"
 LockIn = "yes/no">
 <Title wrap = "yes/no">Menu Title</Title>
 <MenuItem>
