@@ -6,9 +6,15 @@ Timeout="30"
 LockIn="no">
 	<Title wrap="yes">Phone Services</Title>
 	<MenuItem>
+		<Prompt>NOC News</Prompt>
+		<URI>https://raw.githubusercontent.com/chansizzle/noc-newsfeed/main/noc.xml</URI>
+		<Dial>*9664</Dial>
+		<Selection></Selection>
+	</MenuItem>
+	<MenuItem>
 		<Prompt>Ask Google</Prompt>
 		<URI>http://10.2.11.158/yealink/google/google.php?user=</URI>
-		<Dial>456</Dial>
+		<Dial>*9664</Dial>
 		<Selection>12345</Selection>
 	</MenuItem>
 	<MenuItem>
@@ -16,12 +22,5 @@ LockIn="no">
 		<URI>http://10.2.11.158/yealink/rss/rss.php?feed=cnn</URI>
 		<Dial>1001</Dial>
 		<Selection>4567</Selection>
-	</MenuItem>
-	
-	<MenuItem>
-		<Prompt>NOC News</Prompt>
-		<URI>https://raw.githubusercontent.com/chansizzle/noc-newsfeed/main/noc.xml</URI>
-		<Dial>*9664</Dial>
-		<Selection></Selection>
 	</MenuItem>
 </YealinkIPPhoneTextMenu>
