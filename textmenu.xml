@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <YealinkIPPhoneTextMenu
-defaultIndex = "integer"
-style = "numbered/none"
-Beep = "yes/no"
-wrapList="yes/no"
-Timeout = "integer"
-refresh="refresh time" url="url"
-cancelAction = "URI"
-previous = "URI"
-LockIn = "yes/no">
-	<Title wrap = "yes/no">Menu Title</Title>
+style="numbered"
+Beep="no"
+Timeout="30"
+LockIn="no">
+	<Title wrap="yes">Phone Services</Title>
 	<MenuItem>
-		<Prompt>First menu item</Prompt>
-		<URI>HTTP(s) URL</URI>
-		<Dial>Number for dial</Dial>
-		<Selection>Selection</Selection>
+		<Prompt>Ask Google</Prompt>
+		<URI>http://10.2.11.158/yealink/google/google.php?user=</URI>
+		<Dial>456</Dial>
+		<Selection>12345</Selection>
 	</MenuItem>
-	<!--Additional menu items may be added (up to 30) -->
-	<!--Additional soft key items may be added -->
+	<MenuItem>
+		<Prompt>CNN News</Prompt>
+		<URI>http://10.2.11.158/yealink/rss/rss.php?feed=cnn</URI>
+		<Dial>1001</Dial>
+		<Selection>4567</Selection>
+	</MenuItem>
 </YealinkIPPhoneTextMenu>
