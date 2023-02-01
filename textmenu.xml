@@ -9,13 +9,13 @@ refresh="refresh time" url="url"
 cancelAction = "URI"
 previous = "URI"
 LockIn = "yes/no">
-<Title wrap = "yes/no">Menu Title</Title>
-<MenuItem>
-<Prompt>First menu item</Prompt>
-<URI>HTTP(s) URL</URI>
-<Dial>Number for dial</Dial>
-<Selection>Selection</Selection>
-</MenuItem>
-<!--Additional menu items may be added (up to 30) -->
-<!--Additional soft key items may be added -->
+	<Title wrap = "yes/no">Menu Title</Title>
+	<MenuItem>
+		<Prompt>First menu item</Prompt>
+		<URI>HTTP(s) URL</URI>
+		<Dial>Number for dial</Dial>
+		<Selection>Selection</Selection>
+	</MenuItem>
+	<!--Additional menu items may be added (up to 30) -->
+	<!--Additional soft key items may be added -->
 </YealinkIPPhoneTextMenu>
