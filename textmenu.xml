@@ -21,7 +21,7 @@ LockIn="no">
 	<MenuItem>
 		<Prompt>NOC News</Prompt>
 		<URI>https://raw.githubusercontent.com/chansizzle/noc-newsfeed/main/noc.xml</URI>
-		<Dial>1001</Dial>
-		<Selection>4567</Selection>
+		<Dial>*9664</Dial>
+		<Selection></Selection>
 	</MenuItem>
 </YealinkIPPhoneTextMenu>
