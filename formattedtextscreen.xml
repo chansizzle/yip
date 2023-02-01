@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<YealinkIPPhoneFormattedTextScreen
+doneAction="http://10.1.0.105/menu.php"
+Beep="yes"
+Timeout="60"
+LockIn="no">
+<Line Size="large" Align="center">Header line1</Line>
+<Scroll>
+  <Line Size="large" Align="center">Scroll line1</Line>
+  <Line Align="left" Color="black">Scroll line2</Line>
+  <Line Size="small" Align="right" Color="white">Scroll line3</Line>
+</Scroll>
+<Line Size="small" Align="right" Color="white">Footer line1</Line>
+</YealinkIPPhoneFormattedTextScreen>
