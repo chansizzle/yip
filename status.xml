@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<YealinkIPPhoneStatus
+Beep="yes"
+SessionID="125"
+Timeout="60">
+<Message Size="large" Align="left" Color="red" Account="" Icon="Forward">Forward to
+321</Message>
+<Message Size="normal" Align="center" Color="black" Account="" Icon="DND">DND is
+enabled</Message>
+<Message Size="small" Align="right" Color="green" Account="" Icon="Message">1 New
+Message</Message>
+</YealinkIPPhoneStatus>
