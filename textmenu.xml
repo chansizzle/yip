@@ -8,8 +8,7 @@ Timeout = "integer"
 refresh=“refresh time“ url=“url“
 cancelAction = "URI"
 previous = “URI”
-LockIn = "yes/no"
->
+LockIn = "yes/no">
 <Title wrap = "yes/no">Menu Title</Title>
 <MenuItem>
 <Prompt>First menu item</Prompt>
