@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-  <YealinkIPPhoneTextScreen 
-    doneAction="http://10.2.11.158/ cancel.php"
-    Timeout="15"
-    LockIn="no"
-    Beep="no"
-    Ring="Ring1.wav">
+  <YealinkIPPhoneTextScreen doneAction="http://10.2.11.158/cancel.php" Timeout="15" LockIn="no" Beep="no" Ring="Ring1.wav">
   <Title wrap="yes">Screen Title Here</Title>
   <Text>The screen text goes here. When you see this, congratulations to you complete the configuration.</Text>
 </YealinkIPPhoneTextScreen>
